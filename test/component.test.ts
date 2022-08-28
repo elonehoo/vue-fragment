@@ -3,7 +3,7 @@
  */
  import Vue,{defineComponent} from 'vue';
  import { mount } from '@vue/test-utils';
- import { Fragment } from '../src';
+ import { Fragment } from '..';
  import {test,expect} from 'vitest'
 
  Vue.config.ignoredElements = [/./];

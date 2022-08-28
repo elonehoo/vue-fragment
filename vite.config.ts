@@ -21,7 +21,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
+      entry: path.resolve(__dirname, 'src/index.esm.js'),
       name: 'fragment',
       fileName: 'index',
     },

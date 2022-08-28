@@ -1,5 +1,5 @@
 import { render } from '@vue/server-test-utils'
-import frag from '../src'
+import frag from '..'
 import {test,expect} from 'vitest'
 
 test('SSR', async () => {

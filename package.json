@@ -4,13 +4,7 @@
   "version": "0.0.1-beta.1",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.umd.js"
-    }
-  },
+  "types": "./dist/fragment.d.ts",
   "files": [
     "dist"
   ],

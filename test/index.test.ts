@@ -5,7 +5,7 @@
 import Vue,{defineComponent} from 'vue';
 import { mount } from '@vue/test-utils';
 import outdent from 'outdent';
-import frag from '../src';
+import frag from '..';
 import {dualMount,createMountTarget,} from './util';
 import {test,expect,describe} from 'vitest'
 

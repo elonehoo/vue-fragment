@@ -4,7 +4,7 @@
  import Vue from 'vue';
  import { mount } from '@vue/test-utils';
  import outdent from 'outdent';
- import frag from '../src';
+ import frag from '..';
  import { dualMount, createNonFragApp, serializeDOMTree, createMountTarget } from './util'
  import {test,expect} from 'vitest'
 
