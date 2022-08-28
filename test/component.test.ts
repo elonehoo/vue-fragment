@@ -24,5 +24,5 @@
    };
 
    const wrapper = mount(fragApp);
-
+   expect(wrapper.html()).toBe('<app>hello</app>')
  });
