@@ -8,7 +8,7 @@ import { Fragment } from '@elonehoo/vue-fragment'
 </script>
 
 <template>
-  <fragment> ⬅ This root element will not exist in the DOM
+  <fragment> <!-- This root element will not exist in the DOM -->
     <li>Element 1</li>
     <li>Element 2</li>
     <li>Element 3</li>
