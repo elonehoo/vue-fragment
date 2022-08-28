@@ -18,6 +18,7 @@ specifiers:
   vite: 3.0.9
   vitest: 0.22.1
   vue: 2.7.10
+  vue-template-compiler: ^2.7.10
 
 devDependencies:
   '@elonehoo/eslint-config': 2.0.0_yqf6kl63nyoq5megxukfnom5rm
@@ -37,6 +38,7 @@ devDependencies:
   vite: 3.0.9
   vitest: 0.22.1_jsdom@20.0.0
   vue: 2.7.10
+  vue-template-compiler: 2.7.10
 
 packages:
 
